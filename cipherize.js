@@ -10,7 +10,7 @@ const {
     try {
       const hashedData = await hashData('my secret data');
       console.log('Hashed data:', hashedData);
-  
+      
       const key = await generateKey();
       console.log('Generated key:', key);
   
