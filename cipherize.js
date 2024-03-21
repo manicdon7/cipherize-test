@@ -6,7 +6,6 @@ const {
     compareHash
   } = require('cipherize'); 
 
-
   async function exampleUsage() {
     try {
       const hashedData = await hashData('my secret data');
@@ -31,4 +30,4 @@ const {
   }
 
 exampleUsage();
-  
+
